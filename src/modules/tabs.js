@@ -13,7 +13,6 @@ const tabs = () => {
 					tabContent[index].classList.remove('hidden');
 					tabImages[index].classList.remove('hidden');
 					tabTitle[index].classList.remove('hidden');
-
 				}else{
 					tab.classList.remove('design-list__item_active');
 					tabContent[index].classList.add('hidden');
